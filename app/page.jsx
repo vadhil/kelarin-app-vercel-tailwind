@@ -39,8 +39,8 @@ if (!isAuth) {
 
   return (
       <section>
-        <Hero />
-        <Profile />
+        {/* <Hero /> */}
+        {/* <Profile /> */}
         <button onClick={()=> handleLogOut()} className='p-3 bg-secondary  rounded-lg '> log out</button>    
       </section>
   )
