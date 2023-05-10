@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={nunito.className}>
         <Navbar />
+        {/* <main> */}
         {children}
+        {/* </main> */}
         </body>
     </html>
   )
